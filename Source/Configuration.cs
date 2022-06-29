@@ -12,9 +12,9 @@ namespace Cybersource_rest_samples_dotnet
         public Dictionary<string, string> GetConfiguration()
         {
             _configurationDictionary.Add("authenticationType", "HTTP_SIGNATURE");
-            _configurationDictionary.Add("merchantID", "testrest");
-            _configurationDictionary.Add("merchantsecretKey", "yBJxy6LjM2TmcPGu+GaJrHtkke25fPpUX+UY6/L/1tE=");
-            _configurationDictionary.Add("merchantKeyId", "08c94330-f618-42a3-b09d-e1e43be5efda");
+            _configurationDictionary.Add("merchantID", "infoset0001");
+            _configurationDictionary.Add("merchantsecretKey", "RTySAGxMZZBcPnEr7/uek30mln0l/ql7mUWVgGyPTZg=");
+            _configurationDictionary.Add("merchantKeyId", "b7a920bc-d9d3-4aa9-bfb1-44607abf7819");
             _configurationDictionary.Add("keysDirectory", Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..\\..\\..\\Source\\Resource"));
             _configurationDictionary.Add("keyFilename", "testrest");
             _configurationDictionary.Add("runEnvironment", "apitest.cybersource.com");

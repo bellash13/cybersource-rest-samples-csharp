@@ -17,7 +17,7 @@ namespace Cybersource_rest_samples_dotnet.Samples.Payments
                 Code: clientReferenceInformationCode
            );
 
-            string orderInformationAmountDetailsTotalAmount = "102.21";
+            string orderInformationAmountDetailsTotalAmount = "200";
             string orderInformationAmountDetailsCurrency = "USD";
             Ptsv2paymentsidcapturesOrderInformationAmountDetails orderInformationAmountDetails = new Ptsv2paymentsidcapturesOrderInformationAmountDetails(
                 TotalAmount: orderInformationAmountDetailsTotalAmount,
